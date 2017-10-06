@@ -1,0 +1,31 @@
+module test (i,o,pop, pull);
+
+input 	[1:0] 	i;
+input 				pop, pull;
+output 	[1:0] 	o;
+
+reg [3:0] rStack;
+reg [2:0] rSP;
+
+always @(pop)
+	
+	(if SP !=3'b111)
+	begin
+		Stack[SP]=i;
+		SP=SP+1;
+	end
+	
+	else 
+	begin
+		Stack[SP]=i;
+		SP=3'b111;
+	end
+end
+	
+always @(pull)
+
+		o=Stack[SP];
+		SP=SP-1;
+	
+endmodule
+	

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Xwx47\Documents\Altera\test\simulation\qsim
+vmux
+Z1 Idf239Z95]@Da]M]F>ne`E0
+Z2 VZN[?k@UL:m]^5Tc[kT[@z3
+Z3 dC:\Users\Xwx47\Documents\Altera\test\simulation\qsim
+Z4 w1409612328
+Z5 8test.vo
+Z6 Ftest.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 l19zL7SV>m5b5g]mVCBDk0
+!s85 0
+Z10 !s108 1409612336.332000
+Z11 !s107 test.vo|
+Z12 !s90 -work|work|test.vo|
+!s101 -O0
+vmux_vlg_check_tst
+!i10b 1
+!s100 Xzflj3GRilHH<zHgf3>7`3
+I8<hBGHVD3VCcm_<N^]>[13
+VBAjGf8nI98CW<2[lM9jln0
+R3
+Z13 w1409612314
+Z14 8muxt.vwf.vt
+Z15 Fmuxt.vwf.vt
+L0 60
+R7
+r1
+!s85 0
+31
+Z16 !s108 1409612336.712000
+Z17 !s107 muxt.vwf.vt|
+Z18 !s90 -work|work|muxt.vwf.vt|
+!s101 -O0
+R8
+vmux_vlg_sample_tst
+!i10b 1
+!s100 BQQ44bK_g?;QGOjSGA_4]0
+ICNhPJ;2<0D02JN;EN<?b11
+Vag8m?0944F^8:>cE^iQh>1
+R3
+R13
+R14
+R15
+L0 30
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmux_vlg_vec_tst
+!i10b 1
+!s100 3mJCCfYR@za@mV?7Oa>Ni1
+IHSlh97c@4TQC4jd;FL^lm3
+V=8nQnIn1KKR=fClWPAV0=2
+R3
+R13
+R14
+R15
+L0 155
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

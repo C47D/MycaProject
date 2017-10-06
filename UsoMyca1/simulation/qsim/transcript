@@ -1,0 +1,19 @@
+# do Usomyca1.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module um1b
+# 
+# Top level modules:
+# 	um1b
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module um1b_vlg_sample_tst
+# -- Compiling module um1b_vlg_check_tst
+# -- Compiling module um1b_vlg_vec_tst
+# 
+# Top level modules:
+# 	um1b_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.div_vlg_vec_tst 
+# ** Error: (vsim-3170) Could not find 'C:/Users/Xwx47/Documents/Altera/UsoMyca1/simulation/qsim/work.div_vlg_vec_tst'.
+# 
+# Error loading design

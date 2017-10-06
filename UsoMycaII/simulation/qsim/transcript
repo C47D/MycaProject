@@ -1,0 +1,46 @@
+# do usomycaII.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usomycaII
+# 
+# Top level modules:
+# 	usomycaII
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module usomycaII_vlg_sample_tst
+# -- Compiling module usomycaII_vlg_check_tst
+# -- Compiling module usomycaII_vlg_vec_tst
+# 
+# Top level modules:
+# 	usomycaII_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver -c -voptargs=\"+acc\" -t 1ps -novopt work.usomycaII_vlg_vec_tst 
+# Loading work.usomycaII_vlg_vec_tst
+# Loading work.usomycaII
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_jtag
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading work.usomycaII_vlg_sample_tst
+# Loading work.usomycaII_vlg_check_tst
+# ** Warning: (vsim-3017) usomycaII.vwf.vt(473): [TFMPC] - Too few port connections. Expected 17, found 13.
+# 
+#         Region: /usomycaII_vlg_vec_tst/i1
+# ** Warning: (vsim-3722) usomycaII.vwf.vt(473): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+# 
+# ** Warning: (vsim-3722) usomycaII.vwf.vt(473): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+# 
+# ** Warning: (vsim-3722) usomycaII.vwf.vt(473): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+# 
+# ** Warning: (vsim-3722) usomycaII.vwf.vt(473): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+# 
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : usomycaII.vwf.vt(433)
+#    Time: 2 us  Iteration: 0  Instance: /usomycaII_vlg_vec_tst/tb_out

@@ -1,0 +1,19 @@
+module muxes (s, i1, i2, i3, i4, i5, i6, i7, i8, z1, z2, z3, z4, z5, z6, z7, z8, z);
+
+	input		[1:0]	s;
+	input		[3:0]	i1, i2, i3, i4, i5, i6, i7, i8;
+	output			z1, z2, z3, z4, z5, z6, z7, z8;
+	output	[7:0] z;
+	
+	assign	z1=i1[s];
+	assign	z2=i2[s];
+	assign	z3=i3[s];
+	assign	z4=i4[s];
+	assign	z5=i5[s];
+	assign	z6=i6[s];
+	assign	z7=i7[s];
+	assign	z8=i8[s];
+	
+	assign	z={z8, z7, z6, z5, z4, z3, z2, z1};
+	
+endmodule

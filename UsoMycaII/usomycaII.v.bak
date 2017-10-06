@@ -1,0 +1,8 @@
+module usomycaII (ck, );
+
+	input				ck;
+	
+
+
+
+		MycaII imycaII (.ck(ck), .x(), .opc(), .DIRB(), .DIRI(), .PC(), .clk(wclk));

@@ -1,0 +1,46 @@
+|myca1
+pc[0] << rpc[0].DB_MAX_OUTPUT_PORT_TYPE
+pc[1] << rpc[1].DB_MAX_OUTPUT_PORT_TYPE
+pc[2] << rpc[2].DB_MAX_OUTPUT_PORT_TYPE
+pc[3] << rpc[3].DB_MAX_OUTPUT_PORT_TYPE
+opc[0] => Equal0.IN2
+opc[0] => Equal1.IN2
+opc[0] => Equal2.IN2
+opc[0] => Equal3.IN0
+opc[0] => Equal4.IN1
+opc[1] => Equal0.IN1
+opc[1] => Equal1.IN0
+opc[1] => Equal2.IN1
+opc[1] => Equal3.IN2
+opc[1] => Equal4.IN0
+opc[2] => Equal0.IN0
+opc[2] => Equal1.IN1
+opc[2] => Equal2.IN0
+opc[2] => Equal3.IN1
+opc[2] => Equal4.IN2
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+x => rpc.OUTPUTSELECT
+dir[0] => rpc.DATAB
+dir[0] => rpc.DATAB
+dir[0] => rpc.DATAB
+dir[1] => rpc.DATAB
+dir[1] => rpc.DATAB
+dir[1] => rpc.DATAB
+dir[2] => rpc.DATAB
+dir[2] => rpc.DATAB
+dir[2] => rpc.DATAB
+dir[3] => rpc.DATAB
+dir[3] => rpc.DATAB
+dir[3] => rpc.DATAB
+ck => rpc[0].CLK
+ck => rpc[1].CLK
+ck => rpc[2].CLK
+ck => rpc[3].CLK
+
+

@@ -1,0 +1,72 @@
+module stack (push, pop, datos, o, sp);
+
+	input 			push;
+	input				pop;
+	inout 	[7:0] datos;
+	output	[7:0] o;
+	output	[2:0] sp;
+	
+	reg 		[2:0] sp;
+	reg      [3:0]	stack;
+	
+	always @(posedge push or posedge pop)
+		
+			begin
+				
+				if (push==1'b0 && pop==1'b0)			//Hold
+				
+					begin	
+					
+					datos = datos;			
+						
+					end
+					
+				if (push==1'b1 && pop==1'b0)			//Push
+				
+					begin	
+					
+					stack[sp] = datos;			
+						
+					end
+					
+						else
+					
+					begin
+						
+					sp = sp+1;	
+					stack[sp] = datos;
+					
+					end
+					
+				if (s_0==1'b0 && s_1==1'b1)  			// Pop
+			
+					begin
+					
+					
+						if (sp==3'b000)
+						
+							begin
+						
+							datos=datos;
+						
+							end
+							
+						else
+					
+							begin
+							
+							sp=sp-1;
+							stack[sp]=datos;
+					
+							end
+					
+					end
+					
+				end
+				
+		end
+
+endmodule		
+		
+				
+				

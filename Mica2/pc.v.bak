@@ -1,0 +1,8 @@
+module	pc (ck, c, l, i. Q);
+
+	input				ck;
+	input				c;
+	input				l;
+	input		[7:0]	i;
+	output	[7:0]	Q;
+	

@@ -1,0 +1,8 @@
+module	um1b	(ck, m, sl, sg, ls, lc, sv, cl, cn, de, clk, scp);
+
+	input					ck, m, sl, sg, ls, lc;
+	output				sv, cl, cn, de, clk;
+	output	[3:0]		scp;
+	
+divisor	(ck, ck1s);
+mux (s, i, z);

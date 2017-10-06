@@ -1,0 +1,16 @@
+module um1bb (CK, M, SL, SG, LS, LC, SV, CL, CN, DE, CLK, SCP);
+
+	input					CK, M, SL, SG, LS, LC;
+	output				SV, CL, CN, DE, CLK;
+	output	[3:0]		SCP;
+	
+	wire 					WCK1S;
+	wire					WX;
+	wire		[3:0]		WCP;
+	wire		[12:0]	WD;
+	
+	assign	CK=WCK1S;
+	assign	SCP=WPC;
+	assign	{SV, CL, CN, DE}=WD[3:0];
+	
+	divisor	(ck, ck1s);

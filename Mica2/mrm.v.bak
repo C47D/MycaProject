@@ -1,0 +1,14 @@
+module mrm (a,D);
+
+input 	[3:0] 	a;
+output	[6:0]		D;
+
+assign	D[6]=(a==4´hB || a==4´hF)?1'b1:1'b0;
+assign	D[5]=(a==4´hB || a==4´hF)?1'b1:1'b0;
+assign	D[4]=(a==4´hD)?1'b1:1'b0;
+assign	D[3]=(a==4´hD)?1'b1:1'b0;
+assign	D[2]=(a[3]==1´b0 || a[0]==1'b0 || (a[3:2]==2'b10))?1'b1:1'b0;
+assign	D[1]=(~((a[3]==1'b0) && (a[1]==1'b1) && (a[0]==1'b0)))?1'b1:1'b0;
+assign	D[0]=((a[1:0]==2'b10) || (a[2:0]==3'b101) || (a[2:0]==3'b011))?1'b1:1'b0;
+			
+endmodule

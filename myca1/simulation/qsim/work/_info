@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Xwx47\Documents\Altera\myca1\simulation\qsim
+vmyca1
+Z1 !s100 H<Wfh`ObcC?j`USbV^j]j1
+Z2 IH_W2H2OINS@O71@]1jT?H1
+Z3 VKd[LD9i59ZUF4=84e]Led1
+Z4 dC:\Users\Xwx47\Documents\Altera\myca1\simulation\qsim
+Z5 w1409879245
+Z6 8myca1.vo
+Z7 Fmyca1.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|myca1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1409879248.470000
+Z12 !s107 myca1.vo|
+!s101 -O0
+vmyca1_vlg_check_tst
+!i10b 1
+Z13 !s100 <2KL8:an;Ro0z:6RMJ8Zk3
+Z14 INU6zGg2GOfncAP8MeV;h52
+Z15 V>?bRTHJfUZTS9:dGh=mHF3
+R4
+Z16 w1409879235
+Z17 8myca1.vwf.vt
+Z18 Fmyca1.vwf.vt
+L0 64
+R8
+r1
+!s85 0
+31
+Z19 !s108 1409879248.821000
+Z20 !s107 myca1.vwf.vt|
+Z21 !s90 -work|work|myca1.vwf.vt|
+!s101 -O0
+R10
+vmyca1_vlg_sample_tst
+!i10b 1
+Z22 !s100 LLh`hG[EdY2^_Ji7gf1ik0
+Z23 IYA=U=MR0XPL9FX`Hb2BoF0
+Z24 V9PKT5]L`Zk0=ejgbm76:_2
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmyca1_vlg_vec_tst
+!i10b 1
+Z25 !s100 =ioZ055IKH7G=O91<LRZE2
+Z26 Iz^PEYJQ1HR3kYo<d?6CLz3
+Z27 VRz0l^e?8ZoBebhR^9bR=^2
+R4
+R16
+R17
+R18
+Z28 L0 212
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

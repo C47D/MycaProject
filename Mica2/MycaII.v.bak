@@ -1,0 +1,19 @@
+module mycaII (ck, x, opc, DIRB, DIRI, PC);
+
+	input					ck;
+	input 				x;
+	input 	[2:0]		opc;
+	input 	[7:0]		DIRB;
+	input 	[7:0] 	DIRI;
+	output	[7:0]		PC;
+	
+	
+	div	div1		(.ck(), .ck1s());
+	mrm 	mrm1		(.a(),.D());
+	dr 	dr1		(.b(), .cl(), .S());
+	stack	stack1	(.ck(), .i(), .s(), .T());
+	mux_1	mux1 		(.s(), .im0(), .im1(), .im2(), .z());
+	pc 	pc1		(.ck(), .c(), .l(), .i(), .Q());
+	
+	
+endmodule

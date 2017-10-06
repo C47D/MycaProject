@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Aug 28 15:42:35 2014
+Quartus II 64-Bit Version : 14.0.0 Build 200 06/17/2014 SJ Web Edition
+Revision Name : myca1
+Top-level Entity Name : myca1
+Family : Cyclone IV E
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
