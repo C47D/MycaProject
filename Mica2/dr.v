@@ -1,9 +1,11 @@
-module dr (b, ci, S);
+`default_nettype none
 
-	input		[7:0] b;
-	input				ci;
-	output	[7:0]	S;
+module dr (
+	input [7:0] b,
+	input ci,
+	output [7:0] S
+);
 	
-	assign S=(ci==1'h0)?b:b+1;
+assign S = (ci == 1'h0) ? b : b + 1;
 	
 endmodule

@@ -1,9 +1,11 @@
-module	muxflag	(s, i, z);
+`default_nettype none
 
-	input		[7:0]		i;
-	input 	[2:0]		s;
-	output				z;
+module muxflag (
+	input wire[2:0] s,
+	input wire[7:0] i,
+	output z
+);
 	
-	assign 	z=i[s];
+assign z = i[s];
 	
 endmodule
